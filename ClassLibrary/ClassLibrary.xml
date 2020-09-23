@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ClassLibrary</name>
+    </assembly>
+    <members>
+        <member name="M:ClassLibrary.Car.Price">
+            <summary>
+            Method that gives you the price of the ticket for a car
+            </summary>
+            <returns>The price of a car ticket which is equal to 240 (double) </returns>
+        </member>
+        <member name="M:ClassLibrary.Car.VehicleType">
+            <summary>
+            Method that gives you the Vehicle Type of a car
+            </summary>
+            <returns>The vehicle type of a car (string)</returns>
+        </member>
+    </members>
+</doc>
