@@ -9,7 +9,7 @@ namespace ClassLibrary
     /// It contains the Licenseplate and Date attributes
     /// and the Price and VehicleType method.
     /// </summary>
-    public class MC
+    public class MC : Vehicle
     {
         /// <summary>
         /// The License plate of the motorcycle
@@ -25,7 +25,7 @@ namespace ClassLibrary
         /// Method that gives you the price of the ticket for the motorcycle
         /// </summary>
         /// <returns>The price of the car ticket which is equal to 125 (double) </returns>
-        public double Price()
+        public override double Price()
         {
             return 125;
         }
@@ -34,7 +34,7 @@ namespace ClassLibrary
         /// Method that gives you the Vehicle Type of the motorcycle
         /// </summary>
         /// <returns>The vehicle type of the motorcycle (string)</returns>
-        public string VehicleType()
+        public override string VehicleType()
         {
             return "MC";
         }

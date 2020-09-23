@@ -62,5 +62,27 @@
             </summary>
             <returns>The vehicle type of the motorcycle (string)</returns>
         </member>
+        <member name="P:ClassLibrary.Vehicle.Licenseplate">
+            <summary>
+            The License plate of the vehicle
+            </summary>
+        </member>
+        <member name="P:ClassLibrary.Vehicle.Date">
+            <summary>
+            The date and time the ticket is issued.
+            </summary>
+        </member>
+        <member name="M:ClassLibrary.Vehicle.Price">
+            <summary>
+            Method that gives you the price of the ticket for the vehicle
+            </summary>
+            <returns>The price of the type's ticket (double) </returns>
+        </member>
+        <member name="M:ClassLibrary.Vehicle.VehicleType">
+            <summary>
+            Method that gives you the Vehicle Type of the vehicle
+            </summary>
+            <returns>The vehicle type of the vehicle (string)</returns>
+        </member>
     </members>
 </doc>
