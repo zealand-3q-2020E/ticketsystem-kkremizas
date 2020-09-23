@@ -11,7 +11,7 @@
             and the Price and VehicleType method.
             </summary>
         </member>
-        <member name="P:ClassLibrary.Car.Licenseplate">
+        <member name="P:ClassLibrary.Car.LicensePlate">
             <summary>
             The License plate of the car
             </summary>
@@ -40,7 +40,7 @@
             and the Price and VehicleType method.
             </summary>
         </member>
-        <member name="P:ClassLibrary.MC.Licenseplate">
+        <member name="P:ClassLibrary.MC.LicensePlate">
             <summary>
             The License plate of the motorcycle
             </summary>
@@ -62,7 +62,12 @@
             </summary>
             <returns>The vehicle type of the motorcycle (string)</returns>
         </member>
-        <member name="P:ClassLibrary.Vehicle.Licenseplate">
+        <member name="T:ClassLibrary.Vehicle">
+            <summary>
+            Abstract base Class. Do not create instance.
+            </summary>
+        </member>
+        <member name="F:ClassLibrary.Vehicle._licensePlate">
             <summary>
             The License plate of the vehicle
             </summary>

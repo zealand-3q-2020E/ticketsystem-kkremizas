@@ -4,18 +4,35 @@ using System.Text;
 
 namespace ClassLibrary
 {
+    /// <summary>
+    /// Abstract base Class. Do not create instance.
+    /// </summary>
     public abstract class Vehicle
     {
         /// <summary>
         /// The License plate of the vehicle
         /// </summary>
-        public string Licenseplate { get; set; }
+        private string _licensePlate;
+        public string LicensePlate
+        {
+            get { return _licensePlate; }
+
+            set
+            {
+                if (_licensePlate.Length > 7)
+                {
+                    throw new Exception("License Plate must be maximum 7 characters.");
+                }
+                _licensePlate = value;
+            }
+        }
+
+        
 
         /// <summary>
         /// The date and time the ticket is issued.
         /// </summary>
         public DateTime Date { get; set; }
-
 
         /// <summary>
         /// Method that gives you the price of the ticket for the vehicle

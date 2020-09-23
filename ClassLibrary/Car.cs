@@ -14,7 +14,7 @@ namespace ClassLibrary
         /// <summary>
         /// The License plate of the car
         /// </summary>
-        public string Licenseplate { get; set; }
+        public string LicensePlate { get; set; }
 
         /// <summary>
         /// The date and time the ticket is issued.
