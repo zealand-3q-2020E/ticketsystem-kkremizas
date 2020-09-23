@@ -1,19 +1,19 @@
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using ClassLibrary;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using  ClassLibrary;
 
 namespace TestTicketingSystem
 {
     [TestClass]
-    public class CarTest
+    public class MCTest
     {
         [TestMethod]
         public void PriceTest()
         {
             //Arrange
-            Car car = new Car();
+            MC mc = new MC();
             //Act
-            var actualPrice = car.Price();
-            double expectedPrice = 240;
+            var actualPrice = mc.Price();
+            double expectedPrice = 125;
             //Assert
             Assert.AreEqual(expectedPrice, actualPrice);
         }
@@ -22,10 +22,10 @@ namespace TestTicketingSystem
         public void VehicleTypeTest()
         {
             //Arrange
-            Car car = new Car();
+            MC mc = new MC();
             //Act
-            var actualVehicleType = car.VehicleType();
-            string expectedVehicleType = "Car";
+            var actualVehicleType = mc.VehicleType();
+            string expectedVehicleType = "MC";
             //Assert
             Assert.AreEqual(expectedVehicleType, actualVehicleType);
         }
