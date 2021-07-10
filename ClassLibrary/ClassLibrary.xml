@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ClassLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:ClassLibrary.Car">
+            <summary>
+            Class that represents a car.
+            It contains the Licenseplate and Date attributes
+            and the Price and VehicleType method.
+            </summary>
+        </member>
+        <member name="P:ClassLibrary.Car.LicensePlate">
+            <summary>
+            The License plate of the car
+            </summary>
+        </member>
+        <member name="P:ClassLibrary.Car.Date">
+            <summary>
+            The date and time the ticket is issued.
+            </summary>
+        </member>
+        <member name="M:ClassLibrary.Car.Price">
+            <summary>
+            Method that gives you the price of the ticket for the car
+            </summary>
+            <returns>The price of the car ticket which is equal to 240 (double) </returns>
+        </member>
+        <member name="M:ClassLibrary.Car.VehicleType">
+            <summary>
+            Method that gives you the Vehicle Type of the car
+            </summary>
+            <returns>The vehicle type of the car (string)</returns>
+        </member>
+        <member name="T:ClassLibrary.MC">
+            <summary>
+            Class that represents a motorcycle.
+            It contains the Licenseplate and Date attributes
+            and the Price and VehicleType method.
+            </summary>
+        </member>
+        <member name="P:ClassLibrary.MC.LicensePlate">
+            <summary>
+            The License plate of the motorcycle
+            </summary>
+        </member>
+        <member name="P:ClassLibrary.MC.Date">
+            <summary>
+            The date and time the ticket is issued.
+            </summary>
+        </member>
+        <member name="M:ClassLibrary.MC.Price">
+            <summary>
+            Method that gives you the price of the ticket for the motorcycle
+            </summary>
+            <returns>The price of the car ticket which is equal to 125 (double) </returns>
+        </member>
+        <member name="M:ClassLibrary.MC.VehicleType">
+            <summary>
+            Method that gives you the Vehicle Type of the motorcycle
+            </summary>
+            <returns>The vehicle type of the motorcycle (string)</returns>
+        </member>
+        <member name="T:ClassLibrary.Vehicle">
+            <summary>
+            Abstract base Class. Do not create instance.
+            </summary>
+        </member>
+        <member name="F:ClassLibrary.Vehicle._licensePlate">
+            <summary>
+            The License plate of the vehicle
+            </summary>
+        </member>
+        <member name="P:ClassLibrary.Vehicle.Date">
+            <summary>
+            The date and time the ticket is issued.
+            </summary>
+        </member>
+        <member name="M:ClassLibrary.Vehicle.Price">
+            <summary>
+            Method that gives you the price of the ticket for the vehicle
+            </summary>
+            <returns>The price of the type's ticket (double) </returns>
+        </member>
+        <member name="M:ClassLibrary.Vehicle.VehicleType">
+            <summary>
+            Method that gives you the Vehicle Type of the vehicle
+            </summary>
+            <returns>The vehicle type of the vehicle (string)</returns>
+        </member>
+    </members>
+</doc>
